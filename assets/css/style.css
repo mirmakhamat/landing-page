@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Montserrat-Regular.ttf') format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Montserrat-Medium.ttf') format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Montserrat-Bold.ttf') format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Montserrat-SemiBold.ttf') format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Montserrat-ExtraBold.ttf') format("truetype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('../font/VisueltPro-Regular.ttf') format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('../font/VisueltPro-Medium.ttf') format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('../font/VisueltPro-Bold.ttf') format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../font/Inter-Regular.ttf') format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Formular';
+  src: url('../font/Formular-Medium.ttf') format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Formular';
+  src: url('../font/Formular-Bold.ttf') format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto-Regular.ttf') format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Gordita';
+  src: url('../font/Gordita-Regular.otf') format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Gordita';
+  src: url('../font/Gordita-Bold.otf') format("opentype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Gordita';
+  src: url('../font/Gordita-Medium.otf') format("opentype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'HSE Sans';
+  src: url('../font/OpenSans-Regular.ttf') format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'HSE Sans';
+  src: url('../font/OpenSans-Bold.ttf') format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'HSE Sans';
+  src: url('../font/OpenSans-SemiBold.ttf') format("truetype");
+  font-weight: 600;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+button,
+input,
+select,
+textarea {
+  background: unset;
+  cursor: pointer;
+  border: 0;
+}
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 0;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  max-width: 1182px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  gap: 40px;
+}

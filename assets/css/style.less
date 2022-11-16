@@ -1,0 +1,44 @@
+@import url('./lib/fonts.less');
+@import url('./lib/var.less');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+button, input, select, textarea {
+    background: unset;
+    cursor: pointer;
+    border: 0;
+    &:focus{
+        outline: 0;
+    }
+}
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1182px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    &__menu {
+        display: flex;
+        gap: 40px
+    }
+}
